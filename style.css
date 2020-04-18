@@ -1,0 +1,80 @@
+html{
+	margin:0;
+	padding:0;
+background-image: url("http://mesarosa.mx/en/wp-content/uploads/sites/4/2015/05/19434738_l.jpg"); 
+ background-size: cover;
+  background-repeat: no-repeat;
+overflow: hidden;
+}
+div{
+	width: 320px;
+	height: 800px;
+	background-color: #ffe2cc;
+	opacity: 0.8;
+	box-sizing: border-box;
+	padding: 20px;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.logo{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 40px);
+
+}
+h1{
+padding-top: 40px;
+margin: 0px;
+font-family:serif;
+font-size: 30px;
+text-align: center;
+
+
+}
+div p{
+	font-weight: bold;
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+}
+div input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+div input[type=text], input[type=password]{
+
+	border:none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+}
+div input[type = "submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background:silver;
+	color:#000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+div input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: brown;
+	color:#fff;
+}
+div a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+
+}

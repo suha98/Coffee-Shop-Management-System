@@ -1,0 +1,24 @@
+body{
+
+background-image: url(https://pixelz.cc/wp-content/uploads/2018/07/cup-of-coffee-and-roasted-beans-on-wood-table-uhd-4k-wallpaper.jpg);
+background-size: cover;
+}
+
+header{
+
+	margin:0;
+	background-color:white;
+	padding:0;
+	width: 100%;
+}
+h1{
+	padding:0;
+	display: inline-block;
+}
+nav ul li{
+
+
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px 5px 15px;
+}

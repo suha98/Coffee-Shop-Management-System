@@ -1,0 +1,107 @@
+body{
+
+background-image: url(https://wmtllp.com/wp-content/uploads/2016/06/Tax-Capital-Gains-Tax-iStock_86602055_XLARGE.jpg);
+background-size: cover;
+}
+
+.table-bordered{
+
+	position: absolute;
+	top: 50%;
+}
+
+
+
+
+#add_sale, #calc_change{
+font-family: serif;
+border:none;
+	outline: none;
+	position: absolute;
+top: 20%;
+left: 10%;
+	height: 35px;
+	background-color:brown;
+	opacity: 0.8;
+	color:#FFF;
+	font-size: 16px;
+}
+
+
+
+ #addsale_form{
+
+	width: 600px;
+	height: 500px;
+	background-color: #FBDD6B;
+opacity: 0.9;
+	box-sizing: border-box;
+	padding: 10px;
+	top:55%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+
+
+#addsale_form input[type=text], input[type=date], input[type=number]{
+	float: right;
+}
+
+
+h1{
+padding-top: 40px;
+margin: 0px;
+font-family:serif;
+font-size: 30px;
+text-align: center;
+
+
+}
+#addsale_form p, {
+	font-weight: bold;
+	font-family: serif;
+	margin: 0;
+	
+	padding-top: 10px; 
+	float: left;
+}
+
+ #addsale_form input[type=text] {
+
+	border:none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	color: #000;
+}
+#addsale_form input[type = "submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background:silver;
+	color:#000;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+#addsale_form input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: brown;
+	color:#fff;
+}
+
+#addsale_form li{
+
+	list-style-type: none;
+display: inline-block;
+}
+#addsale_form input{
+width: 350px;
+	
+}
+
+
